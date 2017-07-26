@@ -1,0 +1,77 @@
+body{
+	padding-bottom: 0px;/* background:#dcdcdc; */
+}
+.header div{
+	width: 33%;
+}
+.header div a i{
+	font-size: 3.3rem;
+	color: #fff;
+}
+.header div:nth-child(2){
+	font-size: 2.5rem;
+	color: #fff;
+	text-align: center;
+}
+.container{
+	background: #f0f0f0;
+	padding-top: 10px;
+}
+.container .nav2{
+	width:100%;height:4rem;
+	float:right; 
+	line-height:4rem;
+	border-bottom:0.1rem solid #ccc;
+	background: #fff;
+	padding-left: 5% }
+
+.container .nav2>p:nth-child(1){float: left;font-size:1.8rem;}
+
+.container .nav2>div{float: right;}
+
+.container .nav2>div>p{font-size:1.8rem ;color: #9b9b9b;}
+
+.container .nav2 i{ 
+	float: right;
+	margin:0 1rem;
+	color: #c7c7c7;}
+.container .nav2:hover{
+	background: #f0f0f0;
+}
+.container .nav3{
+	width:100%;height:1rem; 
+	background: #f0f0f0;
+	}
+.container .nav3>p{font-size:1.7rem; color: #9a9a9a;}
+
+
+.nav4{width: 100%;height:7rem;float: left;background: #fff;
+				line-height:3rem;padding-left: 3%; padding-top:0.5rem }
+				.nav4>p{font-size: 1.4rem; }
+.nav4 i{float: left;color:#78dc2e;}
+
+input{ width:90%;height:4rem;  margin:3rem 5%; border-radius:5px; font-size: 1.6rem;
+			background:#db2122;border:0 none; color: #fff;}
+.foot{
+	width: 100%;
+	height: 4rem;
+/* 	background: red; */
+	position: fixed;
+	bottom: 15%;
+	display: none;
+}
+.foot div{
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot div div{
+	width: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #fff;
+	background: rgba(21, 21, 21, 0.7);
+	border-radius: 10px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>想去--关于想去</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<link rel="stylesheet" href="style/base.css">
+	<link rel="stylesheet" href="style/aboutus.css">
+	<script src="script/jquery.js"></script>
+	<script src="script/rem.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div><a href="setting.html"><i class="iconfont">&#xe60f;</i></a></div>
+		<div>关于想去</div>
+		<div></div>
+	</div>
+	<div class="container">
+		<div class="icon">
+			<div>
+				<div >
+					<i class="iconfont" id="icon">&#xe603;</i>
+				</div>
+				<p>当前版本:2.2.25</p>
+			</div>
+		</div>
+		<div class="list">
+			<ul>
+				<li>
+				 	<p>帮助</p>
+				 	<p><i class="iconfont">&#xe64c;</i></p>
+				 </li>
+				 <li>
+				 	<p>联系想去客服</p>
+				 	<p><i class="iconfont">&#xe64c;</i></p>
+				 </li>
+				 <li>
+				 	<p>检查新版本</p>
+				 	<p><i class="iconfont">&#xe64c;</i></p>
+				 </li>
+				 <li>
+				 	<p>给APP评分</p>
+				 	<p><i class="iconfont">&#xe64c;</i></p>
+				 </li>
+			</ul> 
+		</div>
+		<div class="foot">
+			<p>官方微信号:xiangqu798</p>
+			<br>
+			<p>Copyright @ 2014-2016 Xiangqu.</p>
+			<p>All Rights Reserved</p>
+		</div>
+	</div>
+	<script>
+	$(function(){
+		var wh=window.innerHeight;
+		var hh=$(".header").height();
+		$(".container").height(wh-hh);
+		
+		if ($(".container").width()>=560) {
+			$("#icon").css("height","auto")
+		}else{
+			$("#icon").height($("#icon").width());
+		}
+	})	
+	</script>
+</body>
+</html>

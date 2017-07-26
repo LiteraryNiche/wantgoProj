@@ -1,0 +1,52 @@
+
+
+body>.header{background-color:transparent ; justify-content: flex-end;}
+.header p{font-size: 3rem;display: block; /*width:5%;*/ float: right;color: #aaa;}
+.container {
+	margin-top:-6rem; 
+	padding-bottom: 20px;
+	background: #f0f0f0;
+}
+.container .container_a{
+	/* height:20rem; */
+	/*width:100%;*/
+	background: url(../images/myall/top_bg1.jpg) round ;border-top: 1px solid #000;}
+.container .container_a .container_a_top{
+	 margin-top:50px; 
+	text-align: center;
+	
+}
+.container .container_a:after{
+	clear: both;
+	content: ""; 
+	display: block; 
+	height: 0; 
+	line-height: 0; 
+	visibility: hidden;
+}
+body{padding-top: 70px; cursor: pointer;}
+.container .container_a_top div{
+	color: #fff;
+	padding-top:0.4rem; 
+}
+.container .container_a_top img{
+	width: 15%;
+	border-radius: 50%;
+}
+.container .container_a_top p{font-size: 1.4rem;
+	line-height: 2rem;color: #aaaaaa; padding-top: 1rem;}
+/*.container .container_a_top input[type=button]{ border-radius: 10px;width:auto;line-height: 3rem;font-size: 1.5rem; border:1px solid #aaa; background-color:transparent;color: #aaa;}*/
+.container .container_a_bottom .b_l{margin-left:5px; margin-top: 20px;}
+.container .container_a_bottom span{float: left;margin-top:10px;color:#aaa;}
+.container .container_a_bottom span a{color:#aaa;}
+.container .container_a_bottom strong{float: left;margin:20px 15px 0;color:#aaa;}
+.container .container_a_bottom .b_r{margin-top:4rem;color:#aaa;width:auto;padding:0 10px;border-radius: 10px;background-color: #000;text-align: center;}
+.container .container_b ul{margin-top:10px; }
+.container .container_b ul li {float:left;width: 33.33%;text-align: center;border:1px solid #e0e0e0;height: 70px;background-color: #fff;color: #000;padding-top:10px; }
+.container .container_b ul li i{font-size:2.5rem; color: #333;}
+.container .container_c,.container .container_d{clear: both; height: 4rem;line-height: 4rem;font-size: 1.5rem;padding-left: 15px;}
+.container .container_d{background-color: #fff; font-size:1.5rem; color: #000;}
+.container .container_d i{font-size: 1.6rem;margin-right: 15px;color:#bab8b8; }
+.container .container_d i:nth-child(1){margin-top: 1px; display: block;float: left; font-size: 2.5rem;}
+.container .container_e{margin-top: 30px;}
+.container_d:hover{background: #e2e2e2;}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>想去--已喜欢</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<link rel="stylesheet" href="style/base.css">
+	<link rel="stylesheet" href="style/favourite.css">
+	<script src="script/jquery.js"></script>
+	<script src="script/rem.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div><a href="after_login.html"><i class="iconfont">&#xe60f;</i></a></div>
+		<div>我喜欢的</div>
+		<div></div>
+	</div>
+	<div class="container">
+		
+	</div>
+	<div class="foot" id="foot">
+		<div>
+			<div>没有数据</div>
+		</div>
+	</div>
+	<script>
+		$(function(){
+			setTimeout(function(){
+				$("#foot").show();
+			},500)	
+			setTimeout(function(){
+				$("#foot").animate({"bottom":"-100%"}, 1000,function(){
+					$("#foot").hide();
+					$("#foot").css("bottom","15%")
+				})
+			}, 1500)
+		})
+	</script>
+</body>
+</html>

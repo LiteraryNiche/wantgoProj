@@ -1,0 +1,85 @@
+body{
+	padding-bottom: 0px;
+}
+.header div a i{
+	font-size: 3.3rem;
+	color: #fff;
+}
+.header div{
+	width: 33.33%;
+}
+.header div:nth-child(2){
+	font-size: 2.5rem;
+	color: #fff;
+	text-align: center;
+}
+.container{
+	background: #f0f0f0;
+	position: relative;
+}
+.container .icon{
+	width: 100%;
+	height: 14rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.container .icon div{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.container .icon div div{
+	display: block;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.container .icon div div i{
+	display: block;
+	width: 25%;
+	font-size: 5rem;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+}
+.container .icon div p{
+	font-size: 1.6rem;
+}
+.container .list ul li{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;	
+}
+.container .list ul li:hover{
+	background: #f0f0f0;
+}
+.container .list li p{
+	font-size: 1.8rem;
+}
+.container .foot{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+.container .foot p{
+	width: 100%;
+	font-size: 1.3rem;
+	text-align: center;
+}

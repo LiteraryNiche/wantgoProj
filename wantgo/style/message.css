@@ -1,0 +1,13 @@
+.header{line-height: 60px;}
+.header i{color: #fff;font-size: 3.3rem;}
+.header p{color: #fff;font-size: 2.5rem;}
+.boss{width: 95%;height:9rem;margin:1rem auto;border-bottom:0.1rem solid #d7d7d7;padding-bottom: 2rem }
+
+.boss .lf{width: 20%;height: auto;  float: left; margin-top: 1.2rem;}
+.boss .lf>img{width:100%;border-radius:15rem;}
+.boss .lf i{font-size:4rem;color:#fff;text-align: center;}
+
+.boss .ri{width:80%;height: 9rem;float: right;padding-left: 1rem}
+.boss .ri>h2{font-size:2rem;color:#000;line-height:5rem;float: left; width: 100%;}
+.boss .ri h2 span{float: right;line-height:4rem;font-size: 1.6rem;font-weight: normal;}
+.boss .ri>p{display: block;line-height:1rem;font-size: 1.7rem;float: left;}

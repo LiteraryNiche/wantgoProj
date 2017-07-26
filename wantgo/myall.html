@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>想去--我的</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="style/base.css">
+	<link rel="stylesheet" href="style/myall.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="script/jquery.js"></script>
+	<script src="script/rem.js"></script>
+</head>
+<body>
+	<div class="header">
+		<a href="Login.html"><p class="iconfont">&#xe613;</p></a>
+	</div>
+
+	<div class="container" >
+		<div class="container_a">
+			<div class="container_a_top">
+				<p>在这里，找到属于你的不一样</p>
+				<input type="button" value="登录/注册" id="login">
+			</div>
+			<div class="container_a_bottom">
+			<div class="pull-left b_l">
+				<span>
+				0<br>
+				<a href="#">关注</a>
+				</span>
+				<strong>丨</strong>                        
+				<span>
+				0<br>
+				<a href="#">粉丝</a>
+				</span>
+			</div>
+				<div class="pull-right b_r" id="text"><i class="iconfont">&#xe60b;</i>编辑资料</div>
+			</div>
+		</div>
+		<div class="container_b">
+			<ul>
+				<li id="order"><i class="iconfont">&#xe609;</i><br>我的订单</li>
+				<li id="shopping"><i class="iconfont">&#xe730;</i><br>购物车</li>
+				<li id="coupon"><i class="iconfont">&#xe61a;</i><br>我的优惠券</li>
+				<li><i class="iconfont">&#xe60c;</i><br>喜欢的好物</li>
+				<li id="joinus"><i class="iconfont">&#xe627;</i><br>设计师入驻</li>
+				<li ></li>
+			</ul>
+		</div>
+
+		<div class="container_c">TA说</div>
+		<div class="container_d"><i class="iconfont">&#xe640;</i>已喜欢 <i class="iconfont pull-right">&#xe64c;</i></div>
+		<div class="container_e">
+		<div class="container_d" id="talk"><i class="iconfont">&#xe629;</i>意见反馈 <i class="iconfont pull-right">&#xe64c;</i></div>
+		<div class="container_d" id="seeting"><i class="iconfont">&#xe601;</i>设置<i class="iconfont pull-right">&#xe64c;</i></div>
+
+		</div>
+	</div>
+
+	<div class="footer">
+		<div >
+			<a href="index.html">
+				<i class="iconfont ">&#xe603;</i>
+				<p>专题</p>
+			</a>	
+		</div>
+		<div>
+			<a href="design.html">
+				<i class="iconfont">&#xe600;</i>
+				<p>设计师</p>
+			</a>	
+		</div>
+		<div>
+			<a href="talking.html">
+				<i class="iconfont">&#xe66e;</i>
+				<p>他说</p>
+			</a>	
+		</div>
+		<div>
+			<a href="stroll.html">
+				<i class="iconfont">&#xe62c;</i>
+				<p>逛</p>
+			</a>
+		</div>
+		<div class="another-color">
+			<a href="myall.html">
+				<i class="iconfont">&#xe604;</i>
+				<p>我的</p>
+			</a>
+		</div>
+	</div>
+	<script src="script/jquery.js"></script>
+	<script src="script/m-login.js"></script>
+	<script>
+		
+			$("#joinus").click(function(){
+				window.location.replace("Login.html")
+			})
+			$("#seeting").click(function(){
+				window.location.replace("Login.html")
+			})
+			$("#talk").click(function(){
+				window.location.replace("Login.html")
+			})
+			$("#text").click(function(){
+				window.location.replace("Login.html")
+			})
+		
+	</script>
+</body>
+</html>

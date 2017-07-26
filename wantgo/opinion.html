@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>想去--意见栏</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="style/base.css">
+	<link rel="stylesheet" href="style/opinion.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="script/jquery.js"></script>
+	<script src="script/rem.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div><a href="after_login.html"><i class="iconfont">&#xe60f;</i></a></div>
+		<div>建议反馈</div>
+		<div>发送</div>
+	</div>
+	<div class="container">
+		<p>请务必留下您的电话号码、QQ或者常登陆的邮箱地址，便于我们第一时间反馈给您。</p>
+		<div><input type="text" id="input"></div>
+	</div>
+	<script>
+		window.onload=function(){
+			var input=document.getElementById('input');
+			input.focus();
+		}
+	</script>
+</body>
+</html>

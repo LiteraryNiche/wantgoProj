@@ -1,0 +1,94 @@
+
+		/* .header{
+			width: 100%;
+			background: #222;
+			height: 60px;
+			padding: 10px 5%;
+		} */
+		.header form{
+			margin-top: 10px;
+			width: 100%;
+		}
+		.header p{
+			width: 80%;
+			height: 40px;
+			background: #fff;
+			line-height: 30px;
+			float: left;
+			border-radius: 8px;
+			padding-top: 5px;			
+		}
+		.header span{
+			box-sizing:border-box;
+			float: left;
+			width: 20%;
+			height: 50px;
+			line-height: 40px;
+			color:#fff;
+			font-size: 1.6rem;
+			padding-left: 7%;
+		}
+		.header p i{
+			box-sizing:border-box;
+			display: block;
+			float: left;
+			font-size: 3.3rem;
+			padding-left:2%; 
+		}
+		.header p input{
+			border: 1px solid transparent;
+			outline: none;
+			display: block;
+			float: left;
+			margin-left: 2%;
+			border-radius: 5px;
+			margin-top: 5px;
+			
+		}
+		#close{
+			cursor: pointer;
+		}
+		.search{
+			box-sizing:border-box;
+			width: 100%;
+			padding: 0 5%;
+		}
+		.search ul p{
+			line-height: 2.5rem;
+			height: 2.5rem;
+			width: 100%;
+		}
+		.search ul li{
+			box-sizing:border-box;
+			width: auto;
+			height: 2rem;
+			padding: 0.5rem 0.6rem;
+			border: 1px solid #ccc;
+			border-radius: 1rem;
+			float: left;
+			margin: 0.3rem 0.3rem;
+			text-align: center;
+			line-height: 0.9rem;
+			font-size: 1.2rem;
+		}
+		.search p{
+			margin-top: 10px;
+			clear: both;
+			float: left;
+		}
+		.title{
+			width: 100%;
+			height: 3rem;
+			padding-left: 1rem;
+			text-align: left;
+			font-size: 1.8rem;
+			line-height: 3rem;
+			cursor: pointer;
+			overflow: hidden;
+		}
+		.title i{
+			display: inline-block;
+			margin-top: 6px;
+			color: #1296db;
+			font-size: 2rem;
+		}

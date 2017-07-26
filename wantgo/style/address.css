@@ -1,0 +1,29 @@
+/* .header div{
+	width: 33%;
+} */
+.header div a i{
+	font-size: 3.3rem;
+	color: #fff;
+}
+body{
+	padding-bottom: 0px !important;
+}
+.header div:nth-child(2){
+	font-size: 2.5rem;
+	color: #fff;
+}
+.header div:nth-child(3){
+	font-size: 2rem;
+	color: #fff;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container div{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.container div i{ font-size: 8rem; }

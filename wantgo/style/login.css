@@ -1,0 +1,107 @@
+.header div{width: 33.33%;}
+.header i{font-size: 2.5rem;color:#fff;}
+.header a{color: #fff;font-size: 2rem;margin-right: 10px;}
+.header .header_a{font-size: 2.5rem;color: #fff; }
+ .header div:nth-child(3){
+ 	text-align: right;
+ }
+ .header{z-index: 10;}
+.container{
+	padding: 15px;
+	position: relative;
+}
+body{padding-bottom: 0px;}
+.forms{
+	width: 100%;
+	/* background-color: yellow; */
+}
+.forms>div{width: 100%;
+			height: 3.8rem; 
+			
+			padding: 0 0.5rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border: 1px solid #eee;
+		}
+.forms>div input{
+	font-size: 1.6rem;
+	border: 0 none;
+	height: 3rem;
+}
+.forms>div>div{
+	width: 30%;
+
+}
+.forms>div>div img{
+	width: 100%;
+}
+.forms>div:nth-child(1){
+	justify-content: flex-start;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.forms>div:nth-child(2){
+	height: 3.6rem;
+	border-top: 0 none;
+	border-bottom: 0 none;
+	display: none;
+}
+.forms>div:nth-child(3){
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+input::-webkit-input-placeholder{
+	color: #ccc;
+}
+.info{
+	width: 100%;
+	height: 2rem;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	color: red;
+}
+.login{
+	width: 100%;
+	margin: auto;
+	height: 3rem;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 2rem;
+	background: #212121;
+	border-radius: 8px;
+}
+.foot{width:90%;position:absolute;bottom:70px;text-align: center;}
+.foot dl dt{
+	width: 100%;
+	height: 3rem;
+	line-height: 3rem;
+	color: #ababab;
+}
+.foot dl dt strong{margin: 0px 15px;}
+.foot dl dd{margin-top:20px;width: 33.33%;float:left;font-size: 4rem;}
+.info_bot{
+	width: 100%;
+	height: 3rem;
+	position: fixed;
+	z-index: 100;
+	bottom: 15%;
+/* 	background: red; */
+	display: none;
+}
+.info_bot>div{
+	width: 100%;
+	height: 3rem;
+	display: flex;
+	justify-content:center;
+	align-items: center; 
+}
+.info_bot>div p{
+	width: auto;
+	line-height: 3rem;
+	padding: 0 10px;
+	color: #fff;
+	border-radius: 15px;
+	height: 3rem;
+	background: rgba(21, 21, 21, 0.6);
+}

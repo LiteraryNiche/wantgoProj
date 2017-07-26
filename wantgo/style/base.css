@@ -1,0 +1,149 @@
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input ,nav,header,aside,article,section,hgroup,figure,figcaption{ 
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 1.4rem;
+	color: #666;
+	font-family: "微软雅黑",Arial;
+}
+body{overflow-x: hidden;}
+html{
+	font-size: 10px;
+}
+ul, li,ol { 
+	list-style: none outside;
+}
+body{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+fieldset, img {
+	border:0 none; 
+	vertical-align: middle;
+}
+a { 
+	color: #333; 
+	text-decoration: none;
+}
+:focus{
+	outline:none;
+}
+
+.clearfix{
+	clear: both;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+.container{
+	width: 100%;
+	height: auto;
+}
+.container:after{
+	clear: both;
+	content: ""; 
+	display: block; 
+	height: 0; 
+	line-height: 0; 
+	visibility: hidden;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	background: #f4f4f4;
+	border-top: 1px solid #e6e6e6;
+	position: fixed;
+	bottom: 0rem;
+}
+.footer>div{
+	width: 20%;
+	height: 60px;
+	float: left;
+	text-align: center;
+	font-size: 2rem;
+	padding-top:1rem; 
+	line-height: 1;
+}
+.footer>div i{
+	font-size: 2rem;
+}
+.footer>div.another-color a{
+	color:#d9ca77;
+}
+.footer>div.another-color a p{
+	color: #d9ca77;
+}
+body>.header{
+	width: 100%;
+	height: 5rem;
+	background: #212121;
+	position: fixed;
+	top: 0rem;
+	padding: 0 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+@media (min-width:768px){
+	.container{
+		width: 480px;
+		margin: 0 auto;
+	}
+}
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.meka{ 
+	width: 100%; 
+	height: 100%; 
+	background: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	z-index: 200;
+	display: none;
+	top: 0px;
+}
+.share{
+	display: none;
+	width: 100%;
+	height: auto; 
+	z-index: 300;
+	position: fixed;
+	bottom: -230px;
+	background: #fff;
+	padding-top: 10px;
+}
+.share p{
+	text-align: center;
+	font-size: 1.8rem;
+	color: #000;
+	margin-bottom: 10px;
+}
+.share .icons{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.share .icons div{
+	width: 25%;
+	text-align: center;
+	font-size: 1.2rem;
+}
+.share .icons div p{
+	font-size: 1.2rem;
+}
+.share .icons div img{
+	width: 50%;
+}
+.share>a{
+	display: block;
+	text-align: center;
+	border-top: 1px solid #3f3f3f;
+	font-size: 1.8rem;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #006cfe;
+}
+

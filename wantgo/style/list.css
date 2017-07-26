@@ -1,0 +1,10 @@
+.header p a i{color: #fff;font-size: 3.3rem;}
+.header p{color: #fff;font-size: 2.5rem;}
+
+
+
+.foot1{width: 97%;height: auto;margin:0.5rem auto;float: right;}
+.foot1 .foo{width:20%;height: auto;float: left; padding-right: 1rem;}
+.foot1 .foo>img{width: 100%;border-radius:15rem;}
+.foot1 .oot{width:80%;float: right;  border-bottom: 0.1rem solid #d7d7d7;line-height: 2rem;}
+.foot1 .oot>span{float: right;margin-right: 1rem;}

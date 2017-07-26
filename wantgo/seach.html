@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" ng-app="myapp">
+<head>
+	<meta charset="UTF-8">
+	<title>想去--搜索</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="style/base.css">	
+	<link rel="stylesheet" href="style/search.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="script/angular.js"></script>
+	<script src="script/jquery.js"></script>
+
+</head>
+<body ng-controller="myController">
+	
+		<div class="header">
+			<form action="" name="search">
+				<p><i class="iconfont">&#xe612;</i><input type="text" placeholder="请输入商品名称" name="title" ng-model="titl" required></p><span id="close">取消</span>
+			</form>
+		</div>
+	<div class="container">
+		<div class="title" ng-show="search.title.$dirty&&search.title.$valid">
+			<i class="iconfont">&#xe620;</i>&nbsp;&nbsp;&nbsp;搜索"{{titl}}"商品
+		</div>
+		<div class="search">
+			<ul>
+				<p>热门搜索</p>
+				<li>毛衣</li>
+				<li>双肩包</li>
+				<li>大衣</li>
+				<li>卫衣</li>
+				<li>打底裤</li>
+				<li>围巾</li>
+				<li>手套</li>
+				<li>钱包</li>
+				<li>衬衫</li>
+				<li>雨伞</li>
+				<li>口罩</li>
+				<li>唇膏</li>
+				<li>护肤</li>
+				<li>毛衣链</li>
+			</ul>
+			<p>最近搜索</p>
+		</div>
+	</div>
+	<script>
+		var app=angular.module("myapp",[])
+			app.controller("myController",function($scope){
+				$scope.titl=null;
+			})
+			$("#close").click(function(){
+				window.location.replace("stroll.html")
+			})
+	</script>
+	
+</body>
+</html>

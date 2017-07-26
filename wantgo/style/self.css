@@ -1,0 +1,56 @@
+body{
+	padding-bottom: 0px;
+}
+.header p{
+	width: 33.33%;
+}
+.header p:nth-child(2){
+	text-align: center;
+}
+.header p a i{
+	font-size: 3.3rem;
+	color: #fff;
+}
+.header p{
+	font-size: 2.2rem;
+	color: #fff;
+}
+.container .nav1{
+	width:95%;height:8rem;
+	float:right; 
+	line-height:8rem
+	;border-bottom:0.1rem solid #ccc; }
+.container .nav1 p{float: left;font-size:1.8rem }
+
+.container .nav1 div{
+	width:6rem;
+	height:6rem;
+	 float: right;}
+
+.container .nav1 div>img{width: 100%;border-radius:6rem;}
+
+.container .nav1 i{ float: right;margin:0 1rem;color: #c7c7c7;}
+
+
+.container .nav2{
+	width:95%;height:4rem;
+	float:right; 
+	line-height:4rem;
+	border-bottom:0.1rem solid #f0f0f0; }
+
+.container .nav2>p:nth-child(1){float: left;font-size:1.8rem;}
+
+.container .nav2>div{float: right;}
+
+.container .nav2>div>p{font-size:1.8rem ;color: #9b9b9b;}
+
+.container .nav2 i{ 
+	float: right;
+	margin:0 1rem;
+	color: #c7c7c7;}
+
+.container .nav3{
+	width:100%;height:1rem; 
+	background: #dcdcdc;
+	}
+.container .nav3>p{font-size:1.7rem; color: #9a9a9a;}

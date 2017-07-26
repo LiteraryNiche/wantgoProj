@@ -1,0 +1,31 @@
+
+.header i{font-size:3.3rem;color:#fff;}
+.header a{color: #fff;font-size: 2rem;}
+.header .header_a{ /*text-align: center;*/font-size: 2.5rem;color: #fff;/* margin-left: 40px; */ }
+ .header>div{
+ 	width: 33.33%;
+ 	text-align: center;
+ }
+ .header>div:nth-child(1){
+ 	text-align: left;
+ }
+ .header>div:nth-child(3){
+ 	text-align: right;
+ }
+/* .container div ul{display: flex;justify-content: space-around;height: 40px;line-height: 40px;border-bottom: 1px solid #c6c6c6;color: #000;font-weight: bold;}
+.container div .on{height: 35px; color:#d3a219;border-bottom: 3px solid #d3a219; }
+.container .bottom{margin-top:200px;text-align: center;}
+.container .bottom i{font-size:8rem;color: #838383;}
+.container .bottom p{font-size: 2rem;color: #838383;}
+.container .bottom_a{display: none;} */
+
+.tabBox .hd{ height:40px;  padding:0 10px; font-size:2rem;  border-bottom: 2px solid #CECECE; display: flex; justify-content: space-around; align-items: center ; }
+	.tabBox .hd ul{ overflow:hidden;display: flex; justify-content: space-between; align-items: center ; }
+	.tabBox .hd ul li{ float:left; margin:0 10px; color:#515151;  }
+	.tabBox .hd ul .on{color:#d5a31c;  }
+	.tabBox .hd ul .on a{ display:block;  color: #d5a31c;  border-bottom:2px solid #d5a31c; }
+	.tabBox .bd ul{ padding:10px 0 10px 10px;  }
+	.tabBox .bd li{ height:300px; text-align: center;display: flex; align-items: center; justify-content: center;  }
+	
+	.tabBox .bd li i{font-size:8rem;color: #838383;}
+	.tabBox .bd	p{font-size: 2rem;color: #838383;}

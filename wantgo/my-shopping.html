@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>想去--购物车</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="style/base.css">
+	<link rel="stylesheet" href="style/my-shopping.css">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="script/jquery.js"></script>
+	<script src="script/rem.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div id="return"><i class="iconfont pull-left">&#xe60f;</i></div>
+		<div class="header_a">购物车</div>
+		<div></div>
+	</div>
+	<div class="container">
+		<p><input type="checkbox" id="misa"><span>密扇</span></p>
+		<div >
+			
+			<div class="txt_b"><input type="checkbox" id="ok"></div>
+			<img src="images/myall/shopping.jpg">
+			<div class="txt">
+				<h1>密扇白戏局设计师中国风潮牌女秋冬局设计师中秋冬局设计师中秋冬局设计师中国风潮牌女秋冬局设计师中国风潮牌女秋冬新款印花套秋冬局设计师中秋冬局设计师中秋冬局设计师中秋冬局设计师中秋冬局设计师中秋冬局设计师中头宽...</h1>
+				<strong id="price">499.00</strong>
+				<h2>尺码:L 预售1月20日前到货..</h2>
+			</div>
+			<div class="txt_a">1<i class="iconfont">&#xe61b;</i></div>
+			<div style="clear: both;"></div>
+		</div>
+
+	</div>
+	<div class="foot">
+		<div class="pull-left"><input type="checkbox" id="chec"><span>全选</span></div>
+		<div class="pull-right">结算（<strong id="add">0</strong>）</div>
+		<div class="pull-right"><span>合计:¥<strong id="all">0</strong></span><br><span>不含运费</span></div>
+		
+	</div>
+	<!-- <script src="script/m-login.js"></script> -->
+	<script src="script/m-shopping.js"></script>
+	<script>
+		$(function(){
+			$("#return").click(function(){
+				window.location.replace("after_login.html")
+			})
+		})
+	</script>
+</body>
+</html>
